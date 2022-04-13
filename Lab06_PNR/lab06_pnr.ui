@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Lab06_pnr</class>
+ <widget class="QMainWindow" name="Lab06_pnr">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>658</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Lab06_pnr</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="scalarProdLabel_pnr">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Scalar Product:</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="vector1Group_pnr">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>291</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Vector 1</string>
+    </property>
+    <widget class="QLabel" name="axisXLabelV1_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>63</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Axis X:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="axisYLabelV1_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>63</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Axis Y:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="axisZLabelV1_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>63</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Axis Z:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lengthLabelV1_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>63</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Length:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lengthValueLabelV1_pnr">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>160</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="axisZValueLabelV1_pnr">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>120</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="axisYValueLabelV1_pnr">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>80</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="axisXValueLabelV1_pnr">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>40</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="vectorProdLabel_pnr">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>220</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Vector Product:</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="Lab6Addition_pnr">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>0</y>
+      <width>191</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Lab6 Addition</string>
+    </property>
+    <widget class="QLabel" name="greaterThanLabel_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>V1 Greater than V2:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lessThanLabel_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>V1 Less than V2:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="equalsLabel_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>V1 Equals V2:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="greaterValLabel_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lessValLabel_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="equalsValLabel_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCompare_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>240</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Compare</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="numOfObjectsLabel_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>310</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Number of objects:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="numOfObjectsValLabel_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>350</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnNumOfObj_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>400</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Check Number of Objects</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="operationGroup_pnr">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>250</y>
+      <width>591</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Operation</string>
+    </property>
+    <widget class="QLabel" name="vectorForOperLabel_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>211</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Vector for operation:</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButtonV1_pnr">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>40</y>
+       <width>110</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Vector 1</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButtonV2_pnr">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>40</y>
+       <width>110</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Vector 2</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="axisZLabelOper_pnr_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>63</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Axis Z:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="axisXLabelOper_pnr_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>63</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Axis X:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="axisYLabelOper_pnr_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>63</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Axis Y:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditAxisX_pnr">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>90</y>
+       <width>501</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditAxisY_pnr">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>130</y>
+       <width>501</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditAxisZ_pnr">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>170</y>
+       <width>501</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSetX_pnr">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>250</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Set X</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSetY_pnr">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>250</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Set Y</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSetZ_pnr">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>250</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Set Z</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSetAll_pnr">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>250</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Set All</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnAddVector_pnr">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>300</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Add Vector</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSubtrVector_pnr">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>300</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Subtract Vector</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnMultByScalar_pnr">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>300</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Multiply by Scalar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCalcLength_pnr">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>300</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Calc Length</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCalcScalarProd_pnr">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>350</y>
+       <width>271</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Calc Scalar Product</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCalcVectorProd_pnr">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>350</y>
+       <width>271</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Calc Vector Product</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditNum_pnr">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>210</y>
+       <width>501</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="numLabelOper_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>210</y>
+       <width>63</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Num:</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="vector2Group_pnr">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>0</y>
+      <width>291</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Vector 2</string>
+    </property>
+    <widget class="QLabel" name="axisZLabelV2_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>63</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Axis Z:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="axisYLabelV2_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>63</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Axis Y:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="axisXLabelV2_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>63</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Axis X:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lengthLabelV2_pnr">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>63</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Length:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lengthValueLabelV2_pnr">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>160</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="axisYValueLabelV2_pnr">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>80</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="axisXValueLabelV2_pnr">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>40</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="axisZValueLabelV2_pnr">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>120</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="scalarProdValueLabel_pnr">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>220</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="vectorProdValueLabel_pnr">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>220</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
